@@ -30,13 +30,13 @@ footer {
     margin-right: auto;
     padding: 20px;
     margin-top: 20px;
+    margin-bottom: 50px;
     box-shadow: 0 0 8px #1c6163;
     border-radius: 5px;
-    background-color: #b3ebab;
+    background-color: #f0efda;
   }
+
  
- 
-   
   .main-content-education {
     border: 1px solid black;
     width: 1150px;
