@@ -1,5 +1,5 @@
 export default function navBar () {
     return (
-        <h2>Hello Motto</h2>
+        <h2>Hello World</h2>
     )
 }
