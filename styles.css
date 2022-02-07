@@ -1,11 +1,20 @@
 .profile-image {
   border-radius: 50%;
+  margin-left: 20px;
+  box-shadow: 0 0 4px #1c6163;
+  border: 1px solid black;
+}
+
+.profile-location {
+  border-radius: 50%;
+  margin-left: 20px;
 }
 
 footer {
   background-color: #000000;
   border: 2px rgb(243, 238, 238);
   color: gray;
+  /* margin-bottom: -30px; */
 }
 
 .main-content-work-experience {
@@ -27,18 +36,18 @@ footer {
     border: 1px solid black;
     width: fit-content;
     /* block-size: fit-conten; */
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
     padding: 20px;
     margin-top: 20px;
     margin-bottom: 50px;
     box-shadow: 0 0 8px #1c6163;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #f0efda;
   }
 
  
-  .main-content-education {
+  /* .main-content-education {
     border: 1px solid black;
     width: 1150px;
     margin-left: auto;
@@ -47,7 +56,7 @@ footer {
     box-shadow: 0 0 8px #1c6163;
     border-radius: 5px;
     background-color: #b3ebab;
-  }
+  } */
  
   .main-content-hobbies {
     border: 1px solid black;
@@ -63,14 +72,14 @@ footer {
     background-color: #f0efda;
   }
  
-  .top-division{
+  /* .top-division{
     border: 1px solid black;
     background-color: #6ec9cc;
     box-shadow: 0 0 8px #1c6163;
     padding: 10px;
     border-radius: 5px;
   }
- 
+  */
   .main-content{
     border: 1px solid black;
     /* width: 2450px; */
@@ -99,16 +108,21 @@ footer {
    
   }
  
-  .header-color{
+  /* .header-color{
     color: black;
     text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb,
     0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1),
     0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px
     rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px
     rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
-  }
+  } */
+
+
+
   body {
       background-color: #c97575;
+      border: 3px solid rgb(24, 119, 228);
+      /* min-height: 100%; */
     }
  
   /* below this is the style for the drop down contact me button */
@@ -128,7 +142,7 @@ footer {
    
   }
  
-  .dropdown-content{
+  /* .dropdown-content{
     display: none;
     position: absolute;
     background-color: #f1f1f1;
@@ -148,7 +162,7 @@ footer {
  
   .dropdown:hover .dropdown-content {display: block;}
  
-  .dropdown:hover .dropbtn {background-color: #0390fc;}
+  .dropdown:hover .dropbtn {background-color: #0390fc;} */
  
   /* above this is the style for the drop down contact me button*/
  
@@ -214,10 +228,10 @@ footer {
     font-weight: bolder;
   }
  
-  .unordered-list{
-  /* border: 2px solid orange; */
-  /* background-color: gray; */
+  /* .unordered-list{
+  border: 2px solid orange;
+  background-color: gray; 
     color: red;
-  }
+  } */
 
 
