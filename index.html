@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jose Lema Profile</title>
+    <script src="https://kit.fontawesome.com/1abf08101b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+   
+</head>
+<body>
+
+  <!-- navbar start -->
+  <nav class="navbar is-black is-spaced" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://bulma.io">
+        <img src="./assets/JL logo 2 (1).PNG" width="75" alt="Jose Lema initials logo">
+      </a>
+  
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+  
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item">
+          Home
+        </a>
+  
+        <a class="navbar-item">
+          About Me
+        </a>
+
+        <a class="navbar-item">
+          My Portfolio
+        </a>
+  
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Let's Connect
+          </a>
+  
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="mailto:srjorgemaciel2002@gmail.com" target="_blank">
+              Email
+            </a>
+            <a class="navbar-item" href="https://www.linkedin.com/in/josemlema/" target="_blank">
+              LinkedIn
+            </a>
+            <a class="navbar-item" href="https://github.com/mauilema" target="_blank">
+              Github
+            </a>
+            <!-- <hr class="navbar-divider"> -->
+          </div>
+        </div>
+
+        <!-- tabs start -->
+        <!-- <div class="tabs is-medium is-fullwidth">
+          <ul>
+            <li class="is-active">
+              <a>Pictures</a>
+            </li>
+            <li class="is-active">
+              <a>Videos</a>
+            </li>
+            <li class="is-active">
+              <a>Music</a>
+            </li>
+          </ul>
+        </div> -->
+        <!-- tabs end -->
+
+      </div>
+  
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a class="button is-light" href="https://www.linkedin.com/in/josemlema/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a class="button is-light" href="https://github.com/mauilema" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>  
+  <!-- navbar end -->
+
+  <!-- navbar js script start -->
+  <script type="text/javascript">
+    (function() {
+      let burger = document.querySelector('.burger')
+      let nav = document.querySelector('#'+burger.dataset.target)
+
+      burger.addEventListener('click', function () {
+        burger.classList.toggle('is-active')
+        nav.classList.toggle('is-active')
+      })
+    })()
+  </script>
+  <!-- navbar js script end -->
+
+    <section class="section">
+        <div>
+          <figure>
+            <img src="./assets/Jose-Lema.png" alt="Jose Lema's Profile Picture" class="profile-image">
+          </figure>
+          <div>
+            <a id="no-underline" href="https://tinyurl.com/mauilema" target="_blank">📍</a><a id="no-underline" href="https://tinyurl.com/mauilema" target="_blank">Brooklyn, New York</a>
+          </div>
+         </div>  
+    </section>
+   
+    <div> 
+        <!--message example start  -->
+        <!-- <div class="message is-info">
+          <h1 class="message-header">About Me:</h1>
+          <p class="message-body">Fullstack Academy Student in the 2021 Future Coders Program. I'm of Latin American decent. My favorite coding language so far is CSS as it allows me to express my creativity. I enjoy watching videos on Youtube from tutorials to podcasts to livestreams, there is so much valuable content to watch! I have a good memory for important topics and embrace creativity in the workplace. </p>
+        </div> -->
+        <!--message example end -->
+    </div>    
+
+    <div> 
+      <!--message example start  -->
+      <div class="main-content">
+        <h1 class="font-for-section-titles">About Me:</h1>
+        <span class="font-for-section-content">Hello! My name is Jose Lema. I'm a fullstack Software Engineer. I'm of Latin American decent. My favorite coding language is Javascript because it gives life to otherwise stale HTML pages. I enjoy watching videos on Youtube from tutorials to podcasts to livestreams, there is so much valuable content to watch! I have a good memory for important topics and embrace creativity in the workplace. </span>
+      </div>
+      <!--message example end -->
+    </div>   
+
+    </br>
+
+    <div class="main-content">
+      <h1 class="font-for-section-titles">Hobbies</h1>
+      <p class="font-for-section-content">Soccer: I practive soccer every Sunday during the Summer. It helps me to have fun while I exercise.</p>
+      <p class="font-for-section-content">Coding: this is a new hobby I developed recently as a result of my new career as a Software Engineer.</p>
+      <p class="font-for-section-content">Video games: I casually play online multiplayer battle royal video games. It helps to talk to childhood friends and spend quality time together.</p>
+    </div>
+
+    
+    <!-- form start -->
+    <div class="main-content-hobbies">
+      <div class="field">
+        <label class="label">Name</label>
+        <div class="control has-icons-left">
+          <input class="input" type="text" placeholder="Text input">
+          <span class="icon is-small is-left">
+            <i class="fas fa-user"></i>
+          </span>
+        </div>
+      </div>
+      
+      <div class="field">
+        <label class="label">Email</label>
+        <div class="control has-icons-left has-icons-right">
+          <input class="input is-danger" type="email" placeholder="Email input" value="hi@">
+          <span class="icon is-small is-left">
+            <i class="fas fa-envelope"></i>
+          </span>
+          <span class="icon is-small is-right">
+            <i class="fas fa-exclamation-triangle"></i>
+          </span>
+        </div>
+        <p class="help is-danger">This email is invalid</p>
+      </div>
+      
+      <div class="field">
+        <label class="label">Message</label>
+        <div class="control">
+          <textarea class="textarea" placeholder="Textarea"></textarea>
+        </div>
+      </div>
+          
+      <div class="field is-grouped">
+        <div class="control">
+          <button class="button is-link">Submit</button>
+        </div>
+        <div class="control">
+          <button class="button is-link is-light">Cancel</button>
+        </div>
+      </div>
+  
+    </div> 
+    <!-- form end -->
+
+    <!-- footer start -->
+      <footer>
+        <h3>In Progress...</h3>
+      </footer>
+    <!-- footer end -->
+
+    
+       
+</body>
+    <link rel="stylesheet" href="styles.css">
+</html>
+
+
+
+
