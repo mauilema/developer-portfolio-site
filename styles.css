@@ -38,8 +38,8 @@ footer {
     border: 1px solid black;
     width: fit-content;
     /* block-size: fit-conten; */
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
     padding: 20px;
     margin-top: 20px;
     margin-bottom: 50px;
@@ -48,6 +48,35 @@ footer {
     background-color: #f0efda;
   }
 
+  .main-content-comment-circle {
+    border: 1px solid black;
+    width:  50px;
+    height: 10px;
+    /* block-size: fit-conten; */
+    margin-left: 20%;
+    margin-right: 15%;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 8px #1c6163;
+    border-radius: 50%;
+    background-color: #f0efda;
+  }
+
+  .main-content-comment-circle-sm {
+    border: 1px solid black;
+    width: 25px;
+    height: 5px;
+    /* block-size: fit-conten; */
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 8px #1c6163;
+    border-radius: 50%;
+    background-color: #f0efda;
+  }
  
   /* .main-content-education {
     border: 1px solid black;
