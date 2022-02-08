@@ -1,13 +1,13 @@
 .profile-image {
   border-radius: 50%;
-  margin-left: 20px;
+  margin-left: 50px;
   box-shadow: 0 0 4px #1c6163;
   border: 1px solid black;
 }
 
 .profile-location {
   border-radius: 50%;
-  margin-left: 20px;
+  margin-left: 50px;
 }
 
 footer {
